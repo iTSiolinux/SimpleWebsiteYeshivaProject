@@ -25,8 +25,11 @@ SimpleWebsiteYeshivaProject/
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) installed on your machine
-- [npm](https://www.npmjs.com/) (Node Package Manager, comes with Node.js)
+Before running the application, please ensure that you have the following software installed on your machine:
+
+* <b>[Node.js](https://nodejs.org/en/download/package-manager)</b>: This is essential for running the application. Node.js provides the JavaScript runtime environment needed to execute the server-side code.
+* <b>[Visual Studio Code (VSCode)](https://code.visualstudio.com/Download)</b>: A powerful and user-friendly code editor that enhances your programming experience. VSCode offers features like syntax highlighting, debugging tools, and extensions that help you code more efficiently compared to traditional IDEs like Visual Studio.
+Make sure to follow the installation instructions provided on the respective websites to set up these tools correctly.
 
 ## Installation
 
@@ -57,6 +60,7 @@ SimpleWebsiteYeshivaProject/
 
 ## Usage
 
-- **Register**: Go to `/register` to create a new user account.
-- **Login**: Go to `/login` to log in with your credentials.
-- **Logout**: Click the logout link to end your session.
+* **Register**: Go to `/register` to create a new user account.
+* **Login**: Go to `/login` to log in with your credentials.
+* **Home**: Visit `/` to view your session ID. If you're not logged in, you'll be redirected to `/login`.
+* **Logout**: `/logout` Click the logout link to end your session.
