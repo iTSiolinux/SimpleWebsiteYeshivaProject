@@ -1,0 +1,71 @@
+:root {
+    --c-100: #e0f7fa; /* Light cyan */
+    --c-200: #b2ebf2; /* Lighter cyan */
+    --c-300: #80deea; /* Light cyan */
+    --c-400: #4dd0e1; /* Medium cyan */
+    --c-500: #26c6da; /* Cyan */
+    --c-600: #00bcd4; /* Dark cyan */
+    --c-700: #00acc1; /* Darker cyan */
+    --c-800: #0097a7; /* Darkest cyan */
+}
+
+
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.titleDiv > h1 {
+    margin: 16px;
+}
+
+.titleDiv > p {
+    margin: 4px;
+}
+
+.Form {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--c-600);
+    padding: 20px 40px;
+    border: 2px solid var(--c-700);
+}
+
+.Form > label {
+    padding: 4px;
+}
+
+.Form > input {
+    margin-bottom: 10px;
+    background-color: var(--c-100);
+    outline: none;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    width: 128px;
+}
+
+
+
+.registerButton, .loginButton {
+    width: fit-content;
+    align-self: center;
+    background-color: var(--c-200);
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    color: black;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.registerButton:hover, .loginButton:hover{
+    scale: 1.1;
+    filter: brightness(95%);
+}

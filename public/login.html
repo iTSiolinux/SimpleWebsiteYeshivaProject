@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="forms.css">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="titleDiv">
+            <h1>Welcome Back, Adventurer!</h1>
+            <p>Log in to set sail on yer next grand adventure!</p>          
+        </div>
+        <form class="Form" action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="username">Password:</label>
+            <input type="password" name="password" id="password" required>
+
+            <button class="loginButton" type="submit">Login</button>
+        </form>
+        <a class="registerButton" href="/register"> Register instead? </a>
+        <a class="registerButton" href="/README.html">What this link does?</a>
+    </body>
+</html>

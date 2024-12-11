@@ -1,0 +1,12 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--c-100);
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
